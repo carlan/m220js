@@ -29,6 +29,7 @@ MongoClient.connect(
   {
     useNewUrlParser: true,
     poolSize: 50,
+    wtimeout: 2500,
   },
 )
   .catch(err => {
